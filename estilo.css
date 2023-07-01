@@ -34,6 +34,8 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    word-wrap: break-word;
+    text-align: center
   }
   
   nav ul li {
@@ -52,6 +54,7 @@ body {
     background-color: white; 
     color: #000; 
     transform: scale(1.1);
+    display: inline-block
   }
   
   a[href^="#"] {
@@ -125,7 +128,7 @@ body {
   }
   
   .color-change {
-    background-color: #000080;
+    background-color: #0E7220;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -135,10 +138,27 @@ body {
   }
   
   .color-change:hover {
-    background-color: #6495ED;
+    background-color: #10B025;
+
   }
   
   .color-change:hover + p {
     color: black;
   }
-  
+  .textbox {
+    width: 720px;
+    height: auto;
+    background-color: #e3e6e8;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .listasemponto {
+    list-style-type: none;
+  }
